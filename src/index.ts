@@ -11,6 +11,8 @@ import {
 
 export { DomHandler, DomHandlerOptions };
 
+export { DomWithAttributeArrayHandler } from './DomWithAttributeArrayHandler'
+
 type Options = ParserOptions & DomHandlerOptions;
 
 // Helper methods
